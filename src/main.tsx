@@ -8,7 +8,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <div className="container mx-auto px-10">
       <Navbar />
-      {/* <App /> */}
+      <App />
     </div>
   </StrictMode>,
 );
