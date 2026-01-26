@@ -1,10 +1,31 @@
+import heroImage from "../public/assets/hero-img.webp";
+
 function App() {
   return (
     <>
-      <h1 className="text-4xl font-bold">Hello World</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ullam exercitationem nihil fugit ratione reiciendis quidem obcaecati doloribus officiis tempora! Rem dicta laborum alias reprehenderit neque. Dolorum temporibus possimus eos dignissimos unde autem nihil sed voluptatum atque necessitatibus! Corporis, obcaecati necessitatibus quas neque placeat consequatur vero quae aut fugit vel tempore aliquam mollitia laudantium quo, eos ex! Beatae enim dicta quis. Quidem ut odio velit quae nulla? Aliquid illum minus aperiam at commodi assumenda perspiciatis nisi. Nobis, consequatur harum quas nostrum saepe blanditiis. Nulla libero illum cupiditate quo amet maiores necessitatibus magni. Ad eos quisquam cumque, vitae praesentium necessitatibus blanditiis vel dolore natus nemo quo laborum officiis voluptates, quaerat reiciendis maiores aspernatur. Nemo, consequatur quisquam voluptas reiciendis pariatur assumenda porro recusandae consectetur sit nobis quo eos similique debitis nisi, commodi, non harum facilis ipsam tempora ipsa! Quasi necessitatibus earum dolorem aliquid quibusdam? Maxime sunt voluptatem vero iusto dolorem voluptates praesentium consequuntur quo itaque vitae neque ratione libero, ipsum dolor eligendi? Est praesentium quo, molestiae rem eligendi perferendis officiis perspiciatis necessitatibus cupiditate natus voluptatibus repudiandae illum a neque rerum velit atque eum ullam dolores non eius saepe sit! Dolore, dignissimos laboriosam. Nihil ut saepe debitis. Vel placeat omnis, architecto non voluptate cupiditate vero delectus accusamus quidem molestiae dolores saepe hic quas iusto repellendus quibusdam praesentium quos modi. Animi temporibus voluptates placeat excepturi quam itaque iure distinctio, rerum voluptas laudantium maxime numquam totam, ratione libero commodi eius? Nostrum similique ullam mollitia molestias, voluptatum quo laboriosam facilis temporibus provident culpa rerum laborum asperiores at et exercitationem aspernatur a, animi deserunt amet impedit omnis quisquam eaque. Facere laboriosam adipisci iste quam debitis dicta sunt nemo assumenda eveniet eius odit qui aut, illum autem sapiente et aperiam enim eaque magnam numquam id est. Nisi a eligendi eos omnis officia sint suscipit amet ratione alias totam?</p>
+      <div className="hero grid grid-cols-2">
+      <div>
+        <div className="flex items-center gap-3 mb-6 w-fit bg-zinc-800 p-4 rounded-2xl">
+        <img src={heroImage} alt="image" className="w-10 rounded-md" />
+        <q>kode yang indah lahir dari ketekunan</q>
+        </div>
+        <h1 className="text-4xl/tight font-bold">Hi, Saya Efraim Urel Palodang</h1>
+        <p className="text-base/relaxed opacity-50">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ea praesentium quis quisquam quod omnis veniam hic, voluptate itaque optio facilis impedit deleniti dolor perspiciatis ipsam nostrum eveniet quam est!
+        </p>
+        <div className="flex mt-10 gap-4">
+          <a href="#" className="bg-blue-700 hover:bg-blue-600 py-2 px-4 rounded-md">
+            Download CV
+          </a>
+          <a href="#" className="bg-zinc-700 hover:bg-zinc-600 py-2 px-4 rounded-md">
+            Lihat Projek
+          </a>
+        </div>
+      </div>
+      <img src={heroImage} alt="image" className="w-125 ml-auto" />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
